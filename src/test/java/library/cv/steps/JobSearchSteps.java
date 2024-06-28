@@ -3,9 +3,9 @@ package library.cv.steps;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import library.cv.pages.HomePage;
+import library.cv.pages.ResultPage;
 import org.testng.asserts.SoftAssert;
-import uk.co.library.pages.HomePage;
-import uk.co.library.pages.ResultPage;
 
 public class JobSearchSteps {
     @When("I enter job {string}")

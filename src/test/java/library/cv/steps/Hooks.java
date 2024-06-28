@@ -3,8 +3,8 @@ package library.cv.steps;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import uk.co.library.propertyreader.PropertyReader;
-import uk.co.library.utility.Utility;
+import library.cv.propertyreader.PropertyReader;
+import library.cv.utility.Utility;
 
 
 public class Hooks extends Utility {
